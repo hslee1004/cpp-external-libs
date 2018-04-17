@@ -1,0 +1,39 @@
+#
+# configuration for static lib
+#
+
+#
+# general
+#
+Static lib (.lib)
+ 
+#
+# preprocessor
+#
+_NO_ASYNCRTIMP
+_ASYNCRT_EXPORT
+_PPLX_EXPORT
+CPPREST_EXCLUDE_COMPRESSION
+
+#
+# Code Generation - Runtime Library (debug)
+#
+/Mtd
+
+#
+# client side
+#
+
+#
+# preprocessor
+#
+_NO_ASYNCRTIMP
+
+#
+# libs
+#
+crypt32.lib
+bcrypt.lib
+winhttp.lib
+libcpprest140d_2_10.lib
+
